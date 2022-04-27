@@ -1,0 +1,8 @@
+:root{
+    --base-font: 'Roboto', sans-serif;
+    --base-text-colot:color: rgba(0, 0, 0, 0.5);
+    --create-button-bcg:#0D94E7;
+
+    --base-size:16px;
+    --bese-weight:400;
+}
