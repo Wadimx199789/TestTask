@@ -115,4 +115,17 @@ body {
           align-items: center;
   margin-bottom: 40px;
 }
+
+.content__brand-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+
+.content__brand-checkbox::before {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
 /*# sourceMappingURL=style.css.map */
