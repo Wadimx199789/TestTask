@@ -2,7 +2,8 @@
     --base-font: 'Roboto', sans-serif;
     --base-text-colot:color: rgba(0, 0, 0, 0.5);
     --create-button-bcg:#0D94E7;
-
+    --header-bcg: rgba(0, 0, 0, 0.04);
+    --menu-bar-bcg:rgba(0, 0, 0, 0.02);
     --base-size:16px;
     --bese-weight:400;
 }

@@ -87,6 +87,10 @@ video {
     *zoom: 1;
     max-width: 100%;
 }
+h2,h3,h4{
+margin:0;
+padding:0;
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
