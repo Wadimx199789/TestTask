@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>TestTask</title>
 </head>
+
 <body>
     <div class="wrapper">
         <div class="header"></div>
@@ -27,28 +29,172 @@
                     <i class="fa fa-search" aria-hidden="true"></i>
                     <input type="search" placeholder="Shearch in Name">
                 </div>
-                <div class="content__head-bottom"></div>
             </div>
             <ul class="content__brands">
                 <li class="content__brand">
                     <div class="content__brand-information">
-                        <input type="checkbox" class="content__brand-checkbox">
-                        <img class="content__brand-avatar" src=""  alt="">
-                        <h3 class="content__brand-name"></h3>
+                        <div class="content__checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox"></label>
+                        </div>
+                        <div class="content__brand-avatar">
+                            <img src="./assets/list-images/avokado-roll.png" alt="avokado-roll">
+                        </div>
+                        <h3 class="content__brand-name">Avokado Roll</h3>
                     </div>
-                    <div class="content__brand-status"></div>
+                    <span class="content__brand-status published">published</span>
+                    <button data-path="one" class="content__options-button">
+                        <img src="./assets/ic-dots.png" alt="dots">
+                    </button>
+                    <div data-target="one" class="content__options">
+                        <a class="content__publich-btn content__options-btn" href="#"> <img
+                                src="./assets/ic-publish.png" alt="publish"> Publish</a>
+                        <a class="content__edit-btn content__options-btn" href="#"><img src="./assets/ic-edit.png"
+                                alt="edit"> Edit</a>
+                        <a class="content__delete-btn content__options-btn" href="#"><img src="./assets/ic-delete.png"
+                                alt="delete"> Delete</a>
+                    </div>
                 </li>
-                <li class="content__brand"></li>
-                <li class="content__brand"></li>
-                <li class="content__brand"></li>
-                <li class="content__brand"></li>
-                <li class="content__brand"></li>
+                <li class="content__brand">
+                    <div class="content__brand-information">
+                        <div class="content__checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox"></label>
+                        </div>
+                        <div class="content__brand-avatar">
+                            <img src="./assets/list-images/avatar.png" alt="lobster-roll-combo">
+                        </div>
+                        <h3 class="content__brand-name">Lobster Roll Combo</h3>
+                    </div>
+                    <span class="content__brand-status published">published</span>
+                    <button data-path="two" class="content__options-button">
+                        <img src="./assets/ic-dots.png" alt="dots">
+                    </button>
+                    <div data-target="two" class="content__options">
+                        <a class="content__publich-btn content__options-btn" href="#"> <img
+                                src="./assets/ic-publish.png" alt="publish"> Publish</a>
+                        <a class="content__edit-btn content__options-btn" href="#"><img src="./assets/ic-edit.png"
+                                alt="edit"> Edit</a>
+                        <a class="content__delete-btn content__options-btn" href="#"><img src="./assets/ic-delete.png"
+                                alt="delete"> Delete</a>
+                    </div>
+                </li>
+                <li class="content__brand">
+                    <div class="content__brand-information">
+                        <div class="content__checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox"></label>
+                        </div>
+                        <div class="content__brand-avatar">
+                            <img src="./assets/list-images/vegetable-salad.png" alt="vegetable-salad">
+                        </div>
+                        <h3 class="content__brand-name">Vegetable Salad</h3>
+                    </div>
+                    <span class="content__brand-status">not published</span>
+                    <button data-path="three" class="content__options-button">
+                        <img src="./assets/ic-dots.png" alt="dots">
+                    </button>
+                    <div data-target="three" class="content__options">
+                        <a class="content__publich-btn content__options-btn" href="#"> <img
+                                src="./assets/ic-publish.png" alt="publish"> Publish</a>
+                        <a class="content__edit-btn content__options-btn" href="#"><img src="./assets/ic-edit.png"
+                                alt="edit"> Edit</a>
+                        <a class="content__delete-btn content__options-btn" href="#"><img src="./assets/ic-delete.png"
+                                alt="delete"> Delete</a>
+                    </div>
+                </li>
+                <li class="content__brand">
+                    <div class="content__brand-information">
+                        <div class="content__checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox"></label>
+                        </div>
+                        <div class="content__brand-avatar">
+                            <img src="./assets/list-images/avatar.png" alt="orange-fresh">
+                        </div>
+                        <h3 class="content__brand-name">Orange Fresh</h3>
+                    </div>
+                    <span class="content__brand-status published">published</span>
+                    <button data-path="four" class="content__options-button">
+                        <img src="./assets/ic-dots.png" alt="dots">
+                    </button>
+                    <div data-target="four" class="content__options">
+                        <a class="content__publich-btn content__options-btn" href="#"> <img
+                                src="./assets/ic-publish.png" alt="publish"> Publish</a>
+                        <a class="content__edit-btn content__options-btn" href="#"><img src="./assets/ic-edit.png"
+                                alt="edit"> Edit</a>
+                        <a class="content__delete-btn content__options-btn" href="#"><img src="./assets/ic-delete.png"
+                                alt="delete"> Delete</a>
+                    </div>
+                </li>
+                <li class="content__brand">
+                    <div class="content__brand-information">
+                        <div class="content__checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox"></label>
+                        </div>
+                        <div class="content__brand-avatar">
+                            <img src="./assets/list-images/avatar.png" alt="lobster-roll-combo">
+                        </div>
+                        <h3 class="content__brand-name">Lobster Roll Combo</h3>
+                    </div>
+                    <span class="content__brand-status published">published</span>
+                    <button data-path="five" class="content__options-button">
+                        <img src="./assets/ic-dots.png" alt="dots">
+                    </button>
+                    <div data-target="five" class="content__options">
+                        <a class="content__publich-btn content__options-btn" href="#"> <img
+                                src="./assets/ic-publish.png" alt="publish"> Publish</a>
+                        <a class="content__edit-btn content__options-btn" href="#"><img src="./assets/ic-edit.png"
+                                alt="edit"> Edit</a>
+                        <a class="content__delete-btn content__options-btn" href="#"><img src="./assets/ic-delete.png"
+                                alt="delete"> Delete</a>
+                    </div>
+                </li>
+                <li class="content__brand">
+                    <div class="content__brand-information">
+                        <div class="content__checkbox">
+                            <input type="checkbox" id="checkbox" />
+                            <label for="checkbox"></label>
+                        </div>
+                        <div class="content__brand-avatar">
+                            <img src="./assets/list-images/Lobster-roll.png" alt="avokado-roll">
+                        </div>
+                        <h3 class="content__brand-name">Lobster Roll Combo</h3>
+                    </div>
+                    <span class="content__brand-status"> not published</span>
+                    <button data-path="six" class="content__options-button">
+                        <img src="./assets/ic-dots.png" alt="dots">
+                    </button>
+                    <div data-target="six" class="content__options">
+                        <a class="content__publich-btn content__options-btn" href="#"> <img
+                                src="./assets/ic-publish.png" alt="publish"> Publish</a>
+                        <a class="content__edit-btn content__options-btn" href="#"><img src="./assets/ic-edit.png"
+                                alt="edit"> Edit</a>
+                        <a class="content__delete-btn content__options-btn" href="#"><img src="./assets/ic-delete.png"
+                                alt="delete"> Delete</a>
+                    </div>
+                </li>
+
             </ul>
             <div class="content__pagination">
-
+                <div class="content__pagination-show">
+                    Showing <span>1-10</span> of <span>10</span> items
+                </div>
+                <ul class="content__pagination-list">
+                    <li class="content__pagination-item"><a href="#">1</a></li>
+                    <li class="content__pagination-item"><a class="active" href="#">2</a></li>
+                    <li class="content__pagination-item"><a href="#">3</a></li>
+                    <li class="content__pagination-item"><a href="#">4</a></li>
+                    <li class="content__pagination-item"><a href="#">5</a></li>
+                    <li class="content__pagination-item"><a href="#">...</a></li>
+                    <li class="content__pagination-item"><a href="#">33</a></li>
+                </ul>
             </div>
         </div>
     </div>
-    
+    <script src="./js/script.js"></script>
+
 </body>
+
 </html>
